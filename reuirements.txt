@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+langdetect
+Sastrawi
+scikit-learn
+imbalanced-learn
+joblib
+google-play-scraper
