@@ -197,20 +197,20 @@ graph LR
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
-| 🌳 Random Forest | 85.2% | 84.8% | 85.2% | 84.9% |
-| 🎯 SVC | 87.1% | 86.9% | 87.1% | 87.0% |
-| 📊 Naive Bayes | 82.3% | 81.9% | 82.3% | 82.1% |
-| 📈 Logistic Regression | 86.4% | 86.1% | 86.4% | 86.2% |
-| 🗳️ **Hard Voting** | **88.3%** | **88.1%** | **88.3%** | **88.2%** |
-| 🗳️ **Soft Voting** | **89.1%** | **88.9%** | **89.1%** | **89.0%** |
+| 🌳 Random Forest | 77.6 | 84% | 83% | 84% |
+| 🎯 SVC | 85.1% | 90% | 94.0% | 88.0% |
+| 📊 Naive Bayes | 74.0% | 86.0% | 81.0% | 86.0% |
+| 📈 Logistic Regression | 77.0% | 87.0% | 84.0% | 87.0% |
+| 🗳️ **Hard Voting** | **82.0%** | **87.0%** | **85.0%** | **87.0%** |
+| 🗳️ **Soft Voting** | **83.0%** | **90.0%** | **87.0%** | **88.0%** |
 
-> 🏆 **Best Performance**: Soft Voting Classifier achieved 89.1% accuracy
+> 🏆 **Best Performance**: SVC achieved 85.1% accuracy
 
 ## 📊 Results & Insights
 
 ### Key Findings:
 
-- **🎯 Model Performance**: Soft Voting Classifier outperformed individual models
+- **🎯 Model Performance**: SVC outperformed individual models
 - **📱 User Sentiment**: Detailed analysis of positive vs negative feedback patterns
 - **🔍 Feature Importance**: TF-IDF revealed most impactful words for sentiment prediction
 - **⚖️ Data Balance**: SMOTE techniques significantly improved minority class prediction
